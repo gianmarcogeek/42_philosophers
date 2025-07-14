@@ -3,30 +3,63 @@
 /*                                                        :::      ::::::::   */
 /*   utils.c                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gpuscedd <gpuscedd@student.42roma.it>      +#+  +:+       +#+        */
+/*   By: gianmarcogeek <gianmarcogeek@student.42    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/04/21 20:30:50 by gpuscedd          #+#    #+#             */
-/*   Updated: 2025/04/21 21:04:32 by gpuscedd         ###   ########.fr       */
+/*   Created: 2025/07/14 16:48:38 by gianmarcoge       #+#    #+#             */
+/*   Updated: 2025/07/14 18:27:40 by gianmarcoge      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "philo.h"
 
-int ft_isdigit(char c)
+int	error_message(char *error)
 {
-	if (c > 111 && c < 122)
-		return (1);
-	return (0);
+	return(write(2, error, ft_strlen(error)+1));
 }
 
-int ft_isnumber(char *num)
+size_t	ft_strlen(char *str)
 {
+	size_t len;
+
+	len = 0;
+	if(str != NULL)
+	{
+		while(str[len] != '\0')
+			len++;
+	}
+	return (len);
+}
+static int	is_whitespace(char c)
+{
+	if (c == 32 || (c >= 8 && c <= 13))
+		return(0);
+	return(1); 
+}
+int ft_atoi(char *str)
+{
+	int num;
+	int sign;
 	int i;
 
+	num = 0;
+	sign = 1;
 	i = 0;
-	while(num[i] && ft_isdigit(num[i]))
+	if(str != NULL)
 	{
-		i++;
+		while(is_whitespace(str[i]) == 0)
+		{
+			i++;
+		}
+		if (str[i] == '-')
+			sign = -1;
+		if (str[i] == '-' || str[i] == '+')
+			i++;
+		while(str[i] != '\0' && (str[i] >= '0' && str[i] <= '9'))
+		{
+			num *= 10;
+			num += (str[i] - 48);
+			i++;
+		}
 	}
-	return (1)
+	return(num * sign);
 }

@@ -3,27 +3,27 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: gpuscedd <gpuscedd@student.42roma.it>      +#+  +:+       +#+         #
+#    By: gianmarcogeek <gianmarcogeek@student.42    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/04/21 20:18:01 by gpuscedd          #+#    #+#              #
-#    Updated: 2025/04/21 20:20:02 by gpuscedd         ###   ########.fr        #
+#    Updated: 2025/07/14 18:10:51 by gianmarcoge      ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME	= philo
 
-SRCS	= main.c
+SRCS	= main.c utils.c
 OBJS	= $(SRCS:.c=.o)
 
 CC		= cc
-CFLAGS	= -Wall -Wextra -Werror
+CFLAGS	= -Wall -Werror -Wextra -g
 
 RM		= rm -f
 
 all: $(NAME)
 
 $(NAME): $(OBJS)
-	$(CC) $(CFLAGS) $(OBJS) -o $(NAME)
+	$(CC) $(CFLAGS) $(OBJS) -o $(NAME) -pthread
 
 clean:
 	$(RM) $(OBJS)
