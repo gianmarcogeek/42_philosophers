@@ -6,13 +6,13 @@
 #    By: gianmarcogeek <gianmarcogeek@student.42    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/04/21 20:18:01 by gpuscedd          #+#    #+#              #
-#    Updated: 2025/07/14 18:10:51 by gianmarcoge      ###   ########.fr        #
+#    Updated: 2025/07/28 11:06:04 by gianmarcoge      ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME	= philo
 
-SRCS	= main.c utils.c
+SRCS	= main.c utils.c threads.c init.c
 OBJS	= $(SRCS:.c=.o)
 
 CC		= cc

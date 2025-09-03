@@ -1,0 +1,25 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug philo",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "/home/gianmarcogeek/Desktop/42_philosophers/src/philo",
+      "args": ["5", "800", "200", "200"], // Modifica i parametri se vuoi
+      "stopAtEntry": false,
+      "cwd": "/home/gianmarcogeek/Desktop/42_philosophers/src",
+      "environment": [],
+      "externalConsole": false,
+      "MIMode": "gdb",
+      "miDebuggerPath": "/usr/bin/gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}
