@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   init.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gianmarcogeek <gianmarcogeek@student.42    +#+  +:+       +#+        */
+/*   By: gpuscedd <gpuscedd@student.42roma.it>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/16 13:26:14 by gianmarcoge       #+#    #+#             */
-/*   Updated: 2025/07/28 11:18:49 by gianmarcoge      ###   ########.fr       */
+/*   Updated: 2025/09/09 12:20:38 by gpuscedd         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

@@ -3,16 +3,16 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: gianmarcogeek <gianmarcogeek@student.42    +#+  +:+       +#+         #
+#    By: gpuscedd <gpuscedd@student.42roma.it>      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/04/21 20:18:01 by gpuscedd          #+#    #+#              #
-#    Updated: 2025/07/28 11:06:04 by gianmarcoge      ###   ########.fr        #
+#    Updated: 2025/09/09 17:49:28 by gpuscedd         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME	= philo
 
-SRCS	= main.c utils.c threads.c init.c
+SRCS	= main.c utils.c threads.c routine_actions.c init.c monitor.c
 OBJS	= $(SRCS:.c=.o)
 
 CC		= cc

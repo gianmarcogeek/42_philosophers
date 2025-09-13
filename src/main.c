@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   main.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gianmarcogeek <gianmarcogeek@student.42    +#+  +:+       +#+        */
+/*   By: gpuscedd <gpuscedd@student.42roma.it>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/14 16:43:31 by gianmarcoge       #+#    #+#             */
-/*   Updated: 2025/07/28 11:00:30 by gianmarcoge      ###   ########.fr       */
+/*   Updated: 2025/09/09 17:47:20 by gpuscedd         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

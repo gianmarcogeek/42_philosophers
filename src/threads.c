@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   threads.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gianmarcogeek <gianmarcogeek@student.42    +#+  +:+       +#+        */
+/*   By: gpuscedd <gpuscedd@student.42roma.it>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/28 09:55:18 by gianmarcoge       #+#    #+#             */
-/*   Updated: 2025/07/28 11:14:32 by gianmarcoge      ###   ########.fr       */
+/*   Updated: 2025/09/09 12:20:30 by gpuscedd         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
