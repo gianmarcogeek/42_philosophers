@@ -6,7 +6,7 @@
 /*   By: gpuscedd <gpuscedd@student.42roma.it>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/16 13:26:14 by gianmarcoge       #+#    #+#             */
-/*   Updated: 2025/09/09 12:20:38 by gpuscedd         ###   ########.fr       */
+/*   Updated: 2025/09/17 15:46:05 by gpuscedd         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -49,6 +49,7 @@ void    init_philos(t_philo *philos, t_program *program, pthread_mutex_t *forks,
         philos[i].dead_lock = &program->dead_lock;
         philos[i].meal_lock = &program->meal_lock;
         philos[i].dead = &program->dead_flag;
+        philos[i].l_fork = &forks[i];
         if (i == 0)
             philos[i].r_fork = &forks[philos[i].num_of_philos - 1];
         else
