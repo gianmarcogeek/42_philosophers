@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: gpuscedd <gpuscedd@student.42.fr>          +#+  +:+       +#+         #
+#    By: gpuscedd <gpuscedd@42roma.student.it>      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/04/21 20:18:01 by gpuscedd          #+#    #+#              #
-#    Updated: 2025/10/01 01:16:57 by gpuscedd         ###   ########.fr        #
+#    Updated: 2025/10/05 23:32:14 by gpuscedd         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 

@@ -3,6 +3,9 @@
 		"stdio.h": "c",
 		"time.h": "c",
 		"types.h": "c",
-		"time_t.h": "c"
-	}
+		"time_t.h": "c",
+		"unistd.h": "c"
+	},
+	"42header.email": "gpuscedd@42roma.student.it",
+	"42header.username": "gpuscedd"
 }
