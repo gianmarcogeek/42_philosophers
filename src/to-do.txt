@@ -1,5 +1,0 @@
-- norminette & commenti
-- studio concetti chiave
-- cosa, come, perchè
-- test su eval sheet
-- Consegna

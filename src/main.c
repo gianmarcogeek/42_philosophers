@@ -6,7 +6,7 @@
 /*   By: gpuscedd <gpuscedd@42roma.student.it>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/14 16:43:31 by gianmarcoge       #+#    #+#             */
-/*   Updated: 2025/10/05 23:46:56 by gpuscedd         ###   ########.fr       */
+/*   Updated: 2025/10/06 00:02:38 by gpuscedd         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 int	error_message(char *error)
 {
-	return (write(2, error, ft_strlen(error)+1));
+	return (write(2, error, ft_strlen(error)+1), 1);
 }
 
 int	ft_usleep(size_t milliseconds)
